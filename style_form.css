@@ -1,0 +1,201 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu ul{
+    list-style: none;
+    margin: 0 auto;
+    padding: 0 20%;
+}
+
+header ul{
+    background-color: white;
+    text-align: right;
+    position: fixed;
+    border-bottom: 2px solid rgb(221, 12, 12) ;
+    top: 0;
+    width: 100%;
+    height: 50px;
+}
+
+header ul li{
+    display: inline;
+    margin-left: 10px;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: red;
+    font-size: 18px;
+    font-family: sans-serif;
+    transition: all .3s;
+    font-weight: bold;
+    display: inline-block;
+    padding: 12px;
+    padding-top: 15px;
+}
+
+header ul li:first-child a{
+    padding: 0;
+    float: left;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+header ul li:first-child a:hover{
+    background-color: white;
+}
+
+header a:hover{
+    background-color: red;
+    color: white;
+}
+
+.heading {
+    font-family: Arial;
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    margin-top: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heading-desc {
+    font-family: Arial;
+    width: 800px;
+    height: 40px;
+    text-align: center;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.URL-input,
+.convert-button {
+    font-size: 1.5rem;
+    padding: 5px 10px;
+}
+
+.URL-input {
+    border-radius: 10px;
+    width: 800px;
+    border: 2px solid rgb(230, 39, 39);
+    outline: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    margin-top: 30px;
+}
+
+.URL-input:focus {
+    border: 2px solid black;
+}
+
+.convert-button {
+    border-radius: 4px;
+    background: rgb(221, 12, 12);
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 2px 4px  rgb(170, 47, 47);
+    cursor: pointer;
+    margin-top: 30px;
+    transition: all .3s;
+    margin-bottom: 80px;
+}
+
+.convert-button:hover {
+    background: rgb(168, 9, 9);
+}
+
+.list {
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70%;
+    margin-top: 40px;
+    padding: 5px 5px 5px;
+    list-style: none;
+}
+
+.list li .post-content{
+    height: 200px;
+    justify-content: center;
+    border-radius: 17px;
+    background: #f1f1f1;
+    padding: 20px;
+    text-align: left;
+    width: 300px;
+    margin-bottom: 50px;
+}
+
+.feature {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    font-family: Arial;
+    width: 1250px;
+}
+
+.feature .img {
+    border-radius: 20px;
+    padding: 0;
+    margin: 10px;
+}
+
+.feature .text{
+    margin-top: 20px;
+}
+
+.feature .text2{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.footer ul{
+    list-style: none;
+    margin: 0 auto;
+    padding: 0 20%;
+}
+
+.footer ul{
+    background-color: rgb(51, 51, 51);
+    text-align: center;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 90px;
+}
+
+.footer ul li{
+    display: inline;
+    margin-left: 10px;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 13px;
+    font-family: sans-serif;
+    display: inline-block;
+    padding: 15px;
+}
+
+.footer-desc{
+    color: white;
+    font-family: sans-serif;
+    font-size: 13px;
+    padding-top: 10px;
+}
